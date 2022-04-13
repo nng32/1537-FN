@@ -35,6 +35,18 @@ function displayDetails() {
     dataObject = JSON.parse(unicornData);
 
     $('#details').html(JSON.stringify(dataObject[index]));
+
+    // experiments below
+
+    results = "<ul>";
+
+    for (field in dataObject[index]) {
+        results += `<li>${dataObject[index][field]}</li>`
+    }
+
+    results += "</ul>";
+
+    $('#details').html(results);
 }
 
 function setup() {

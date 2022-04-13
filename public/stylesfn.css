@@ -47,6 +47,7 @@
     color: white;
     background-color: crimson;
     padding: 5px;
+    width: 100px;
 }
 
 .details:hover {
@@ -55,4 +56,20 @@
 
 .details:active {
     background-color: red;
+}
+
+.retrieve {
+    border: 1px solid blueviolet;
+    color: white;
+    background-color: blueviolet;
+    padding: 5px;
+    width: 100px;
+}
+
+.retrieve:hover {
+    background-color: purple;
+}
+
+.retrieve:active {
+    background-color: blueviolet;
 }
