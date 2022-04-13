@@ -32,12 +32,13 @@
 #result {
     float: left;
     width: 30%;
+    margin-top: 5px;
 }
 
 #details {
     float: left;
     width: 70%;
-    background-color: aliceblue;
+    background-image: linear-gradient(to left, white, aliceblue);
     padding: 5px;
     border-left: 2px solid black;
 }
