@@ -33,11 +33,7 @@ function displayDetails() {
 
     console.log(`Displaying details for ${index}`)
     dataObject = JSON.parse(unicornData);
-
-    $('#details').html(JSON.stringify(dataObject[index]));
-
-    // experiments below
-
+    
     results = "<ul>";
 
     for (field in dataObject[index]) {
