@@ -41,3 +41,18 @@
     padding: 5px;
     border-left: 2px solid black;
 }
+
+.details {
+    border: 1px solid crimson;
+    color: white;
+    background-color: crimson;
+    padding: 5px;
+}
+
+.details:hover {
+    background-color: darkred;
+}
+
+.details:active {
+    background-color: red;
+}
