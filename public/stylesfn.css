@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.homerule {
+    height: 1.6px;
+    margin-top: 5px;
+    border: none;
+    background-image: linear-gradient(to right, black, white);
+    clear: both;
+}
+
+.homelink {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.homelink:link {
+    background-color: crimson;
+}
+
+.homelink:hover {
+    background-color: darkred;
+}
+
+.homelink:active {
+    background-color: red;
+}
+
+#result {
+    float: left;
+    width: 30%;
+}
+
+#details {
+    float: left;
+    width: 70%;
+    background-color: aliceblue;
+    padding: 5px;
+    border-left: 2px solid black;
+}
