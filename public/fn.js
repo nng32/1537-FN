@@ -10,7 +10,7 @@ function findUnicorns() {
     console.log("findUnicorns() was called")
     $.ajax(
         {
-            url: "http://localhost:5000/findUnicorns",
+            url: "https://ump45-comp-1537-fn.herokuapp.com/findUnicorns",
             type: "GET",
             success: process_response
         }
